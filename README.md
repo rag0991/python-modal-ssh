@@ -1,5 +1,7 @@
 # python-modal-ssh
-
+pip install modal tqdm
+modal setup
+ssh-keygen -t rsa
 modal run ssh.py --cpu 4 --memory 32 --gpu L40S --volume volumename --timeout 1
 
 
